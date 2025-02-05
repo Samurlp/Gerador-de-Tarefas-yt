@@ -1,0 +1,10 @@
+/* src/index.css */
+
+/* Importa os estilos base do Tailwind CSS, incluindo reset de estilos e estilos padrão */
+@tailwind base; 
+
+/* Importa os componentes do Tailwind, permitindo a criação de classes reutilizáveis */
+@tailwind components; 
+
+/* Importa as utilitárias do Tailwind, que fornecem classes para espaçamento, cores, tamanhos, etc. */
+@tailwind utilities; 
