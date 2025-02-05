@@ -10,6 +10,9 @@ e validação, além de estilização com Tailwind CSS.
 
 ## Tela Inicial 
 
+![Texto alternativo](img/Assets/Captura de Tela%20(13).png)
+
+
 
 
 
