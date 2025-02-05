@@ -21,7 +21,7 @@ function TaskPage(){
     return <div className="h-screen w-screen bg-slate-500 p-6">
         
         {/* Contêiner principal da página */}
-        <div className="w-[500px] space-y-4">
+        <div className="w-[500px] mx-auto space-y-4">
             
             {/* Cabeçalho da página com botão de voltar */}
             <div className="flex justify-center relative mb-6">
