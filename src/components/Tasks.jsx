@@ -1,5 +1,5 @@
 // Importa os ícones ChevronRightIcon e TrashIcon da biblioteca Lucide React
-import { ChevronRightIcon, TrashIcon } from "lucide-react";
+import { CheckIcon, ChevronRightIcon, TrashIcon } from "lucide-react";
 
 // Importa o hook useNavigate do React Router para navegação entre páginas
 import { useNavigate } from "react-router-dom";
@@ -34,11 +34,15 @@ function Tasks({tasks, onTaskClick, onDeleteTaskClick}) {
                     {/* Botão para marcar/desmarcar a conclusão da tarefa */}
                     <button 
                         onClick={() => onTaskClick(tasks.id)} 
-                        className={`bg-slate-400 text-left text-white 
+                        className={`bg-slate-400 text-left
+                            flex items-center gap-2
+                            text-white 
                             p-2 rounded-md w-full
                             ${tasks.isCompleted && "line-through"}
                         `}
                     >
+
+                    {tasks.isCompleted && <CheckIcon />}
                         {tasks.title} 
                     </button>
                     
